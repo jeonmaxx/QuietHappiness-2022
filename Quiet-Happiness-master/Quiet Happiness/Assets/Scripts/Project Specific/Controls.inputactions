@@ -1,0 +1,238 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "b40f7af1-b2d1-4c64-9cef-31e66239aa21",
+            "actions": [
+                {
+                    "name": "Char Move",
+                    "type": "PassThrough",
+                    "id": "6938cd80-bd9e-4cab-83b4-4b29567382a8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Return",
+                    "type": "Button",
+                    "id": "1ba7ba99-8b1c-4d5f-b1f9-6ca2982cfb9d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action 1",
+                    "type": "Button",
+                    "id": "567ff7a2-7516-4ee2-b16d-4c8482a7bb47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action 2",
+                    "type": "Button",
+                    "id": "84c6b71a-1782-4171-b1ea-ca283120ada8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select One",
+                    "type": "Button",
+                    "id": "668a62b0-1235-4d92-b6c3-dfa544b1b681",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select Two",
+                    "type": "Button",
+                    "id": "300e06f4-b55c-4e09-810a-2f2185b15e4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Scroll",
+                    "type": "Button",
+                    "id": "12f082a6-253a-487b-a562-369a80d80198",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Click",
+                    "type": "Button",
+                    "id": "9847c706-d3c1-4d92-ac3c-53d6414ba117",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Move",
+                    "type": "PassThrough",
+                    "id": "2b5936f4-f63f-4f0f-8707-a6089a503ad3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "a6d4edbf-9c96-4608-98f4-46445cb6db16",
+                    "path": "2dvector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Char Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "d15583f8-eda1-401b-a52a-f3093ae5be33",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Char Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a85bd67a-d648-43ba-98d8-77ecc9dbcffa",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Char Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "f43fb862-6431-4a5b-b06e-a4b93df1af8b",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Char Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "19d21b95-585b-4925-80f8-13a7ec550c2a",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Char Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1ca587ed-5af2-4560-b4fa-7fd34c75271c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Return",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce378e86-1d49-475d-85ac-7cda6b1352ba",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a7ca2983-aba9-494c-ad14-2f100e636fd4",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select One",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08ab9b38-7e11-41a2-94b7-cc2edbcb21a9",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select Two",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8fa7d046-c8d5-4409-b087-b6a82a937eac",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4119bc6-5687-4e6f-868d-c3f114b4441f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5992387c-ff26-4619-9957-c6c080fa6e39",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd75bd96-1355-47df-b64a-56de3bc765b9",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

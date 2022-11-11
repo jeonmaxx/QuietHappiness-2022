@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31390c44c9f3a3d40b424bf6821999a2, type: 3}
+  m_Name: Dialogs
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 2614203346378293248
+  - rid: 2614203346378293249
+  - rid: 2614203346378293250
+  - rid: 2614203346378293251
+  - rid: 6716092189221060608
+  - rid: 6716092189221060609
+  edges:
+  - GUID: abe4024f-8f78-4fa9-b02d-986a6290e366
+    owner: {fileID: 11400000}
+    inputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
+    outputNodeGUID: c5d1990c-719d-467e-b5a9-8d9e775259a7
+    inputFieldName: Previous
+    outputFieldName: Next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: e39ca5ae-5a3b-4a2a-859b-59df050f8937
+    owner: {fileID: 11400000}
+    inputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+    outputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
+    inputFieldName: Previous
+    outputFieldName: Next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 82e1427c-ddff-41ad-b38d-9851c62c5334
+    owner: {fileID: 11400000}
+    inputNodeGUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
+    outputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+    inputFieldName: Previous
+    outputFieldName: Next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 615, y: 1152, z: 0}
+  scale: {x: 0.7561437, y: 0.7561437, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2614203346378293248
+      type: {class: DialogRootNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: c5d1990c-719d-467e-b5a9-8d9e775259a7
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: -135.60706
+          y: -231.00012
+          width: 869
+          height: 4175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: "Hey, du musst der neue Nachbar sein! Ich freue mich dich kennenzulernen
+          mein Name ist Marta, ich wohne direkt gegen\xFCber."
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
+        Next: 0
+        ReferenceID: TutorialGiveItems
+    - rid: 2614203346378293249
+      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 36da227c-e1c4-4401-a85e-136b69669fa0
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 821.8639
+          y: -231.00003
+          width: 432
+          height: 4155
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: "Hmmm\u2026 bei dir sieht es ja noch sehr leer aus\u2026"
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
+        Next: 0
+        Previous: 0
+    - rid: 2614203346378293250
+      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 1341.8185
+          y: -231.00003
+          width: 205
+          height: 4155
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: "Da habe ich doch direkt das passende Einzugsgeschenk f\xFCr
+          dich."
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
+        Next: 0
+        Previous: 0
+    - rid: 2614203346378293251
+      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 1967.8302
+          y: -230.99997
+          width: 271
+          height: 4155
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: "Stell es doch einmal in deinen Raum und schaue ob es dir gef\xE4llt.
+          Ich habe es dir in deinen Umzugskarton gelegt."
+        SoundToPlay: 
+        CompletionToSet: TutorialGiveItems
+        Options: []
+        Next: 0
+        Previous: 0
+    - rid: 6716092189221060608
+      type: {class: DialogRootNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 81cefc57-73dc-4f1a-9962-b3b65f1e071c
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: -136
+          y: -796.2002
+          width: 945
+          height: 4175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: Super! Das sieht doch schon viel wohnlicher aus! - Besuche uns
+          doch mal in der Nachbarschaft und spiele ein paar Spiele mit uns! Bis bald!
+        SoundToPlay: 
+        CompletionToSet: TutorialItemPlacedDialogg
+        Options: []
+        Next: 0
+        ReferenceID: TutorialItemPlaced
+    - rid: 6716092189221060609
+      type: {class: DialogRootNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 31de970c-0241-4602-aedf-eec48015c9ea
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: -136.00009
+          y: -1205.775
+          width: 1067
+          height: 4175
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        Title: Marta
+        Description: "Hezrlichen Gl\xFCckwunsch! Du hast das Level sehr positiv absolviert!
+          Als Dankesch\xF6n m\xF6chte ich dir noch ein M\xF6belst\xFCck geben, schau
+          doch mal in dein Inventar."
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
+        Next: 0
+        ReferenceID: MoleLevelGiveItem
